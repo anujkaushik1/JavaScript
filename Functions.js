@@ -16,3 +16,13 @@ function sayHello(param) {
 
 let rVal = sayHello([10, 20, 30, 40]);
 console.log(rVal);
+
+
+// different return types 
+
+function random(){
+    let rVal = Math.random() > 0.5 ? true : "less than 0.5";
+    return rVal;
+}
+
+console.log(random());
