@@ -21,3 +21,13 @@ let cap = {
 console.log(cap.name);
 console.log(cap.movies[1]);
 cap.newFunc();
+
+console.log(cap);
+
+// Set / Update
+
+cap.age = 36;
+cap.isAvenger = false;
+cap.friends = ["Tony", "Bruce", "Peter"];
+
+console.log(cap);
