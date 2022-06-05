@@ -31,3 +31,16 @@ cap.isAvenger = false;
 cap.friends = ["Tony", "Bruce", "Peter"];
 
 console.log(cap);
+
+// Delete
+
+delete cap.address;
+
+console.log(cap);
+
+let propKey = ["age"];
+console.log(cap[propKey]);
+
+for (let key in cap) {
+  console.log(key, ": ", cap[key]);
+}
