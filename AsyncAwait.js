@@ -40,7 +40,7 @@ console.log("After calling function");
 console.log(a);
 
 a.then(function(data){
-    console.log(data);
+    console.log(data[0]);
 })
 
 console.log("Last line of js file");
