@@ -11,15 +11,24 @@
 // // Hello Anuj Kaushik
 // // 30
 
-var obj = require('./add2');
-function greet(){
-    console.log("Hello Anuj");
-}
+// var {add} = require('./add2');
+// function greet(){
+//     console.log("Hello Anuj");
+// }
 
-console.log(obj(100, 20000));
+// console.log(add(100, 20000));
+
+// // OUPUT => 20100
+
+var {add} = require('./add3');
 
 
+add(20, 48);
 
+//  Anujjjjjjjj Kauushik
+// Hello World
+// 20
+// 48
 
 
 
